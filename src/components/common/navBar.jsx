@@ -13,25 +13,18 @@ const NavBar = (props) => {
 			<div className="nav-container">
 				<nav className="navbar">
 					<div className="nav-logo">
-						<Image 
-							src={logo}
-							alt='logo'
-							width='100'
-							height='45'
-						/>
+						<Link href="/">
+							<Image 
+								src={logo}
+								alt='logo'
+								width='100'
+								height='45'
+							/>
+						</Link>
 					</div>
 					
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link href="/">Home</Link>
-							</li>
 							<li
 								className={
 									active === "impact"
@@ -39,7 +32,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link href="/impact">Impact</Link>
+								<Link href="/pages/impact">Impact</Link>
 							</li>
 							<li
 								className={
@@ -66,7 +59,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link href="/invest">Invest</Link>
+								<Link href="/pages/invest">Invest</Link>
 							</li>
 
 							<li className={
