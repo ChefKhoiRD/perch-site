@@ -1,0 +1,14 @@
+.contact-container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.contact-info-container {
+    margin-right: 12rem;
+}
+
+.contact-description {
+    margin-top: 6rem;
+}
