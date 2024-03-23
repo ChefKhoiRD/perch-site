@@ -56,7 +56,54 @@
 	transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
+/* Icons */
+.navbar-icon {
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+}
+
+/* Mobile */
+.small-medium-menu {
+    height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.mobile-nav {
+	list-style-type: none;
+}
+
+.nav-item-mobile {
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 2rem;
+}
+
+.nav-item-mobile.active a {
+	color: var(--link-color) !important;
+	padding-top: 2rem;
+}
+
+.nav-item-mobile a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.nav-item-mobile a:hover {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 767px) {
 	.navbar {
 		margin-left: 25%;
 		margin-right: 25%;
