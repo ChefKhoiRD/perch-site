@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",  // <=== enables static exports
-    basePath: '/src/'
+    basePath: '/src'
 };
 
 export default nextConfig;
