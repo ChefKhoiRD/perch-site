@@ -6,8 +6,7 @@ const nextConfig = {
         path: '',
       },
     assetPrefix: './',
-    basePath: '/perch-site',
-    reactStrictMode: true
+    basePath: '/perch-site'
 };
 
 export default nextConfig;
