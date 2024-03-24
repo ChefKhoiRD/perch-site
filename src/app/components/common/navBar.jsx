@@ -11,7 +11,7 @@ import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/navBar.css";
+import ".//styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
