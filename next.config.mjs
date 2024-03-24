@@ -5,7 +5,6 @@ const nextConfig = {
         loader: 'akamai',
         path: '',
       },
-    assetPrefix: './',
     basePath: '/perch-site'
 };
 
