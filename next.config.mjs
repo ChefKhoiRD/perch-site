@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",  // <=== enables static exports
-    basePath: '/src'
+    output: "export",
+    images: {
+        loader: 'akamai',
+        path: '',
+      },
+    assetPrefix: './',
+    basePath: '/perch-site',
+    reactStrictMode: true
 };
 
 export default nextConfig;
