@@ -1,5 +1,5 @@
-import NavBar from "../../../components/common/navBar";
-import Form from "../../../components/contact/form";
+import NavBar from "../../components/common/navBar";
+import Form from "../../components/contact/form";
 
 import "./styles/contact.css";
 

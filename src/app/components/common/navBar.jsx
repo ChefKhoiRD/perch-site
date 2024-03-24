@@ -4,7 +4,7 @@ import React, {useState} from "react";
 import Link from "next/link";
 import Image from 'next/image';
 
-import logo from '../../../public/assets/logo.png';
+import logo from '../../../../public/assets/logo.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";

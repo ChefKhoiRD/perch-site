@@ -1,4 +1,4 @@
-import NavBar from "../../../components/common/navBar";
+import NavBar from "../../components/common/navBar";
 
 import "./styles/invest.css";
 
